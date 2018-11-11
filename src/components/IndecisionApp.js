@@ -48,7 +48,6 @@ export default class IndecisionApp extends React.Component {
     }
 
     handleCloseModal = () => {
-        console.log('fechar Modal');
         this.setState(() => ({
             selectedOption: undefined
         }));
